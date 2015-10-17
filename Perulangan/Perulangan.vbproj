@@ -72,23 +72,23 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="index.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="index.Designer.vb">
+      <DependentUpon>index.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="bintang.Designer.vb">
+      <DependentUpon>bintang.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="bintang.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <Compile Include="matriks.Designer.vb">
+      <DependentUpon>matriks.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form3.vb">
+    <Compile Include="matriks.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -108,14 +108,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="index.resx">
+      <DependentUpon>index.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="bintang.resx">
+      <DependentUpon>bintang.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <EmbeddedResource Include="matriks.resx">
+      <DependentUpon>matriks.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
